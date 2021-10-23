@@ -1,0 +1,208 @@
+/*global*/
+*{
+    margin: 0px;
+    text-decoration: none;
+text-transform: capitalize;
+list-style: none;
+}  
+/*start header*/
+header{
+    height: 200px;
+    background-image: url("../img/cover.jpg");
+    background-size: cover;
+}
+header h1{
+    padding: 38px 0 0 74px;
+    color:rgb(255, 255, 255);
+}
+/*start nav bar*/
+ nav{
+     height: 70px;
+    background-color: black;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+ nav ul{
+    list-style: none;
+    text-align: center;
+}
+ nav ul li{
+    display: inline-block;
+    padding:20px;
+}
+ nav ul li a{
+    color: #fff;
+    font-size: 25px;
+}
+ nav ul li a:hover{
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(231, 218, 200);
+    transition: .4s;
+}
+/*start aside and artical*/
+.inf{
+    height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.inf article{
+    width: 70%;
+    margin: 15px 20px 0 0;
+}
+.inf article .second{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.inf article .second .third{
+    width: 70%;
+}
+.inf article  .second .third h1 {
+    padding: 0 0 20px 40px;
+}
+.inf article .second .third p {
+    line-height:  1.5em;
+    padding-left: 15px;
+    text-align: justify;
+    
+}
+.inf article img{
+    width: 25%;
+    padding-top: 50px;
+}
+.inf article .feedback{
+    background-color: rgb(211, 211, 211);
+    height: 720px;
+}
+.inf article .feedback h1{
+   padding: 10px 0 0 30px
+}
+
+.inf article .feedback textarea{
+    border: 2px solid;
+    margin-left: 20px;
+    width: 93%
+
+}
+.inf article .feedback input {
+    display: block;
+    border: 2px solid;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: rgb(91, 91, 145);
+    margin: 5px 0 10px 20px;
+}
+.inf article .feedback hr{
+    margin: 10px 15px 0 15px;
+    color: darkgray;
+}
+.inf article .feedback .comment1{
+    background-color: rgb(0, 0, 0);
+    margin:0 20px 0 20px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.inf article .feedback .comment1 .comn1{
+    color: #fff; 
+    display: flex;
+    flex-direction: row;
+}
+.inf article .feedback .comment1 .comn1 ul{
+    padding: 10px;
+}
+.inf article .feedback .comment1 .comn1 img{
+    border-radius: 50%;
+    width: 5%;
+    padding-top: 0;
+    margin: 5px 0 20px 10px;
+}
+
+.inf article .feedback .comment1 .user-2{
+    color: #fff; 
+    margin:0 0 0 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #615c5c;
+    border-radius: 10px;
+}
+.inf article .feedback .comment1 .user-2 ul{
+    padding: 10px;
+}
+.inf article .feedback .comment1 .user-2 img{
+    border-radius: 50%;
+    width: 5%;
+    padding-top: 0;
+    margin: 5px 0 20px 10px;
+}
+.inf article .feedback .comment1 .user-3{
+    color: #fff; 
+    margin:10px 0 15px 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #615c5c;
+    border-radius: 10px;
+}
+.inf article .feedback .comment1 .user-3 ul{
+    padding: 10px;
+}
+.inf article .feedback .comment1 .user-3 img{
+    border-radius: 50%;
+    width: 5%;
+    padding-top: 0;
+    margin: 5px 0 20px 10px;
+}
+
+/* padding-top: 50px; *//* a side element*/
+.inf aside{
+     width: 30%;
+    height: 94%;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: rgb(211, 211, 211)}
+.inf aside h1{
+    margin:0 0 10px 20px;
+}
+.inf aside .news .news-1{
+    color: #fff; 
+    display: flex;
+    flex-direction: row;
+}
+.inf aside .news .news-1 img{
+    width: 20%;
+    padding-top: 0;
+    margin: 5px 0 20px 10px;
+}
+.inf aside .news .news-2{
+    color: #fff; 
+    display: flex;
+    flex-direction: row;
+}
+.inf aside .news .news-2 img{
+    width: 20%;
+    padding-top: 0;
+    margin: 5px 0 20px 10px;
+}.inf aside .news .news-3{
+    color: #fff; 
+    display: flex;
+    flex-direction: row;
+}
+.inf aside .news .news-3 img{
+    width: 20%;
+    padding-top: 0;
+    margin: 5px 0 20px 10px;
+}
+
+/* footer*/
+footer{
+ padding: 10px;
+    background-color: rgb(146 146 146 / 52%);
+    text-align: center;
+}
